@@ -1,0 +1,73 @@
+/*!
+ * Lense v1.0.0 (https://github.com/jasonrundell/lense)
+ * @author Jason Rundell <jason.rundell@gmail.com> (http://jasonrundell.com)
+ * Licensed under MIT (https://github.com/jasonrundell/lense/blob/master/LICENSE)
+ */
+
+/*** VARIABLES ***/
+$columns: 12;
+
+/*** 12 column grid layout ***/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
+.layout {
+  display: table;
+  width: 100%;
+}
+.row {
+  width: 100%;
+  clear: both;
+}
+[class*="col-"] {
+  float: left;
+}
+.col-1 {
+  display: table-column;
+  width: 100 / $columns * 1%;
+}
+.col-2 {
+  display: table-column;
+  width: 100 / ($columns / 2) * 1%;
+}
+.col-3 {
+  width: 100 / ($columns / 3) * 1%;
+}
+.col-4 {
+  width: 100 / ($columns / 4) * 1%;
+}
+.col-5 {
+  width: 100 / ($columns / 5) * 1%;
+}
+.col-6 {
+  width: 100 / ($columns / 6) * 1%;
+}
+.col-7 {
+  width: 100 / ($columns / 7) * 1%;
+}
+.col-8 {
+  width: 100 / ($columns / 8) * 1%;
+}
+.col-9 {
+  width: 100 / ($columns / 9) * 1%;
+}
+.col-10 {
+  width: 100 / ($columns / 10) * 1%;
+}
+.col-11 {
+  width: 100 / ($columns / 11) * 1%;
+}
+.col-12 {
+  width: 100%;
+}

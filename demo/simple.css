@@ -1,0 +1,12 @@
+/*!
+ * CSS for Simple demo of Lense (https://github.com/jasonrundell/lense/blob/master/demo/simple.html)
+ */
+
+[class*="col-"] {
+  padding: 3%;
+  border: 1px solid #fff;
+  background-color: rgba(22,112,177,0.1);
+}
+.layout {
+  padding: 3%;
+}
