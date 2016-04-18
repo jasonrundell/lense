@@ -1,0 +1,18 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body, html, h1, h2, h3, h4, p, ul, ol, li, small {
+  line-height: $lense-base-line-height;
+  margin: 0;
+  padding: 0;
+}
+body, html {
+  font-size: $lense-base-font-size;
+}

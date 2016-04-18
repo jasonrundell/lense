@@ -1,0 +1,87 @@
+/*!
+ * Lense v1.0.0 (https://github.com/jasonrundell/lense)
+ * @author Jason Rundell <jason.rundell@gmail.com> (http://jasonrundell.com)
+ * Licensed under MIT (https://github.com/jasonrundell/lense/blob/master/LICENSE)
+ */
+/*!
+ * Lense v1.0.0 (https://github.com/jasonrundell/lense)
+ * @author Jason Rundell <jason.rundell@gmail.com> (http://jasonrundell.com)
+ * Licensed under MIT (https://github.com/jasonrundell/lense/blob/master/LICENSE)
+ */
+/* TYPE */
+/* COLORS */
+/* COLUMNS */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body, html, h1, h2, h3, h4, p, ul, ol, li, small {
+  line-height: 1.3;
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  font-size: 16px; }
+
+.lense {
+  /* Gutters */ }
+  .lense .row {
+    width: 100%;
+    clear: both; }
+  .lense [class*="col-"] {
+    float: left; }
+  .lense .col-1 {
+    display: table-column;
+    width: 8.33333%; }
+  .lense .col-2 {
+    display: table-column;
+    width: 16.66667%; }
+  .lense .col-3 {
+    width: 25%; }
+  .lense .col-4 {
+    width: 33.33333%; }
+  .lense .col-5 {
+    width: 41.66667%; }
+  .lense .col-6 {
+    width: 50%; }
+  .lense .col-7 {
+    width: 58.33333%; }
+  .lense .col-8 {
+    width: 66.66667%; }
+  .lense .col-9 {
+    width: 75%; }
+  .lense .col-10 {
+    width: 83.33333%; }
+  .lense .col-11 {
+    width: 91.66667%; }
+  .lense .col-12 {
+    width: 100%; }
+  .lense .layout {
+    display: table;
+    width: 100%; }
+  .lense .left {
+    text-align: left; }
+  .lense .right {
+    text-align: right; }
+  .lense .center {
+    text-align: center; }
+  .lense .fixed {
+    position: fixed; }
+  .lense .gutter {
+    margin-left: 8.33333%;
+    margin-right: -8.33333%;
+    width: 83.33333%; }
+  .lense h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 0; }
+  .lense p {
+    font-size: 1rem; }
+  .lense small {
+    font-size: 0.75rem; }

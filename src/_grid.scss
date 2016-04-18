@@ -1,0 +1,45 @@
+.row {
+  width: 100%;
+  clear: both;
+}
+[class*="col-"] {
+  float: left;
+}
+.col-1 {
+  display: table-column;
+  width: 100 / $lense-columns * 1%;
+}
+.col-2 {
+  display: table-column;
+  width: 100 / ($lense-columns / 2) * 1%;
+}
+.col-3 {
+  width: 100 / ($lense-columns / 3) * 1%;
+}
+.col-4 {
+  width: 100 / ($lense-columns / 4) * 1%;
+}
+.col-5 {
+  width: 100 / ($lense-columns / 5) * 1%;
+}
+.col-6 {
+  width: 100 / ($lense-columns / 6) * 1%;
+}
+.col-7 {
+  width: 100 / ($lense-columns / 7) * 1%;
+}
+.col-8 {
+  width: 100 / ($lense-columns / 8) * 1%;
+}
+.col-9 {
+  width: 100 / ($lense-columns / 9) * 1%;
+}
+.col-10 {
+  width: 100 / ($lense-columns / 10) * 1%;
+}
+.col-11 {
+  width: 100 / ($lense-columns / 11) * 1%;
+}
+.col-12 {
+  width: 100%;
+}
