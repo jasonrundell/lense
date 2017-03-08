@@ -1,0 +1,5 @@
+.ls-gutter {
+  margin-left: 100 / $lense-columns * 1%;
+  margin-right: -(100 / $lense-columns * 1%);
+  width: 100 / $lense-columns * 10%;
+}
