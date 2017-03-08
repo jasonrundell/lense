@@ -1,10 +1,10 @@
 {
   "name": "lense",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "gulp"
   },
   "repository": {
     "type": "git",
@@ -15,10 +15,15 @@
   "bugs": {
     "url": "https://github.com/jasonrundell/lense/issues"
   },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
   "homepage": "https://github.com/jasonrundell/lense#readme",
   "devDependencies": {
-    "del": "^2.2.0",
+    "del": "^2.2.2",
     "gulp": "^3.9.1",
-    "gulp-sass": "^2.2.0"
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^3.1.0"
   }
 }
