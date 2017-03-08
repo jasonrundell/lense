@@ -1,46 +1,45 @@
-.ls-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.row {
   width: 100%;
-  justify-content: center;
+  clear: both;
 }
-[class*="ls-col-"] {
-  flex-direction: column;
+[class*="col-"] {
+  float: left;
 }
-.ls-col-1 {
-  flex: 1;
+.col-1 {
+  display: table-column;
+  width: 100 / $lense-columns * 1%;
 }
-.ls-col-2 {
-  flex: 2;
+.col-2 {
+  display: table-column;
+  width: 100 / ($lense-columns / 2) * 1%;
 }
-.ls-col-3 {
-  flex: 3;
+.col-3 {
+  width: 100 / ($lense-columns / 3) * 1%;
 }
-.ls-col-4 {
-  flex: 4;
+.col-4 {
+  width: 100 / ($lense-columns / 4) * 1%;
 }
-.ls-col-5 {
-  flex: 5;
+.col-5 {
+  width: 100 / ($lense-columns / 5) * 1%;
 }
-.ls-col-6 {
-  flex: 6;
+.col-6 {
+  width: 100 / ($lense-columns / 6) * 1%;
 }
-.ls-col-7 {
-  flex: 7;
+.col-7 {
+  width: 100 / ($lense-columns / 7) * 1%;
 }
-.ls-col-8 {
-  flex: 8;
+.col-8 {
+  width: 100 / ($lense-columns / 8) * 1%;
 }
-.ls-col-9 {
-  flex: 9;
+.col-9 {
+  width: 100 / ($lense-columns / 9) * 1%;
 }
-.ls-col-10 {
-  flex: 10;
+.col-10 {
+  width: 100 / ($lense-columns / 10) * 1%;
 }
-.ls-col-11 {
-  flex: 11;
+.col-11 {
+  width: 100 / ($lense-columns / 11) * 1%;
 }
-.ls-col-12 {
-  flex: 12;
+.col-12 {
+  width: 100%;
 }

@@ -3,10 +3,11 @@
  * @author Jason Rundell <jason.rundell@gmail.com> (http://jasonrundell.com)
  * Licensed under MIT (https://github.com/jasonrundell/lense/blob/master/LICENSE)
  */
-
-@import "config";
+@import "variables";
 @import "reset";
-@import "layout";
-@import "grid";
-@import "gutter";
-@import "type";
+
+.lense {
+  @import "grid";
+  @import "layout";
+  @import "type";
+}

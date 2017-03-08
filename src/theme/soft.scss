@@ -1,5 +1,10 @@
-// Lense: Theme "Soft"
-@import '../_config';
+/*!
+ * Lense v1.0.0 (https://github.com/jasonrundell/lense)
+ * @author Jason Rundell <jason.rundell@gmail.com> (http://jasonrundell.com)
+ * Licensed under MIT (https://github.com/jasonrundell/lense/blob/master/LICENSE)
+ */
+
+@import '../variables';
 
 body {
   font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -8,6 +13,11 @@ body {
 [class*="col-"] {
   border: 1px solid #fff;
   background-color: $lense-base-bg-color;
+  text-align: center;
+  padding: 3%;
+}
+.layout {
+
 }
 .fa {
   font: normal normal normal $lense-base-font-size/1 FontAwesome;

@@ -1,3 +1,13 @@
+/*!
+ * Lense v1.0.0 (https://github.com/jasonrundell/lense)
+ * @author Jason Rundell <jason.rundell@gmail.com> (http://jasonrundell.com)
+ * Licensed under MIT (https://github.com/jasonrundell/lense/blob/master/LICENSE)
+ */
+/*!
+ * Lense v1.0.0 (https://github.com/jasonrundell/lense)
+ * @author Jason Rundell <jason.rundell@gmail.com> (http://jasonrundell.com)
+ * Licensed under MIT (https://github.com/jasonrundell/lense/blob/master/LICENSE)
+ */
 /* TYPE */
 /* COLORS */
 /* COLUMNS */
@@ -7,7 +17,9 @@ body {
 
 [class*="col-"] {
   border: 1px solid #fff;
-  background-color: rgba(22, 112, 177, 0.1); }
+  background-color: rgba(22, 112, 177, 0.1);
+  text-align: center;
+  padding: 3%; }
 
 .fa {
-  font: normal normal normal 14px FontAwesome; }
+  font: normal normal normal 16px FontAwesome; }
