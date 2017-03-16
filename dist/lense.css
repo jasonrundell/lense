@@ -36,19 +36,28 @@ body, html {
 .ls-fixed {
   position: fixed; }
 
+.ls-align-center {
+  align-items: center;
+  justify-content: space-around; }
+
+.ls-content-space-around {
+  justify-content: space-around; }
+
 .ls-row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: center; }
+  flex-flow: row wrap;
+  min-width: 200px; }
 
 [class*="ls-col-"] {
-  flex-grow: 0;
+  display: flex;
+  flex-grow: 1;
   flex-shrink: 0;
   flex-direction: column;
-  align-items: stretch;
-  justify-content: center; }
+  flex-flow: column wrap;
+  min-width: 200px; }
 
 .ls-col-1 {
   width: 8.33333%;
