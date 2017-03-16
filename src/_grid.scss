@@ -1,5 +1,5 @@
-$width: 960px;
-$flex-basis: 200px;
+$grid-column-total: 12;
+$max-mobile-width: 960px;
 
 .ls-row {
   display: flex;
@@ -9,84 +9,57 @@ $flex-basis: 200px;
   justify-content: center;
 }
 [class*="ls-col-"] {
-  flex-direction: column;
-}
-.ls-grid-item {
-  flex-grow: 1;
+  flex-grow: 0;
   flex-shrink: 0;
-  flex-basis: 33.3333%;
-  flex-basis: $flex-basis;
-  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
 }
 .ls-col-1 {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: percentage(100/floor(12/1)/100);
-  flex-basis: floor($width/floor(12/1));
+  width: percentage(100/($grid-column-total/1)/100);
+  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/1));*/
 }
 .ls-col-2 {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: percentage(100/floor(12/2)/100);
-  flex-basis: floor($width/floor(12/2));
+  width: percentage(100/($grid-column-total/2)/100);
+  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/2));*/
 }
 .ls-col-3 {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: percentage(100/floor(12/3)/100);
-  flex-basis: floor($width/floor(12/3));
+  width: percentage(100/($grid-column-total/3)/100);
+  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/3));*/
 }
 .ls-col-4 {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: percentage(100/floor(12/4)/100);
-  flex-basis: floor($width/floor(12/4));
+  width: percentage(100/($grid-column-total/4)/100);
+  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/4));*/
 }
 .ls-col-5 {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: percentage(100/floor(12/5)/100);
-  flex-basis: floor($width/floor(12/5));
+  width: percentage(100/($grid-column-total/5)/100);
+  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/5));*/
 }
 .ls-col-6 {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: percentage(100/floor(12/6)/100);
-  flex-basis: floor($width/floor(12/6));
+  width: percentage(100/($grid-column-total/6)/100);
+  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/6));*/
 }
 .ls-col-7 {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: percentage(100/floor(12/7)/100);
-  flex-basis: floor($width/floor(12/7));
+  width: percentage(100/($grid-column-total/7)/100);
+  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/7));*/
 }
 .ls-col-8 {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: percentage(100/floor(12/8)/100);
-  flex-basis: floor($width/floor(12/8));
+  width: percentage(100/($grid-column-total/8)/100);
+  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/8));*/
 }
 .ls-col-9 {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: percentage(100/floor(12/9)/100);
-  flex-basis: floor($width/floor(12/9));
+  width: percentage(100/($grid-column-total/9)/100);
+  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/9));*/
 }
 .ls-col-10 {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: percentage(100/floor(12/10)/100);
-  flex-basis: floor($width/floor(12/10));
+  width: percentage(100/($grid-column-total/10)/100);
+  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/10));*/
 }
 .ls-col-11 {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: percentage(100/floor(12/11)/100);
-  flex-basis: floor($width/floor(12/11));
+  width: percentage(100/($grid-column-total/11)/100);
+  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/11));*/
 }
 .ls-col-12 {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: percentage(100/floor(12/12)/100);
-  flex-basis: floor($width/floor(12/12));
+  width: percentage(100/($grid-column-total/12)/100);
+  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/12));*/
 }
