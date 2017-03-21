@@ -2,13 +2,11 @@
 
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var autoprefixer = require('gulp-autoprefixer');
+var prefix = require('gulp-autoprefixer');
 
 gulp.task('sass', function () {
   return gulp.src('src/**/*.scss')
-    .pipe(autoprefixer({
-        cascade: false
-    }))
+    .pipe(prefix('last 2 versions'))
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('dist'));
 });

@@ -3,26 +3,66 @@
  * @author Jason Rundell <jason.rundell@gmail.com> (http://jasonrundell.com)
  * Licensed under MIT (https://github.com/jasonrundell/lense/blob/master/LICENSE)
  */
-/* TYPE */
-/* COLORS */
-/* COLUMNS */
 * {
   box-sizing: border-box; }
 
 :after, :before {
   box-sizing: border-box; }
 
-body, html, h1, h2, h3, h4, p, ul, ol, li, small {
-  line-height: 1.3;
-  margin: 0;
-  padding: 0; }
-
-body, html {
-  font-size: 14px; }
-
 .ls-layout {
   display: flex;
   flex-wrap: wrap; }
+
+.ls-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-flow: row wrap;
+  min-width: 200px; }
+
+[class*="ls-col-"] {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-direction: column;
+  flex-flow: column wrap;
+  min-width: 200px; }
+
+.ls-col-1 {
+  flex: 1; }
+
+.ls-col-2 {
+  flex: 2; }
+
+.ls-col-3 {
+  flex: 3; }
+
+.ls-col-4 {
+  flex: 4; }
+
+.ls-col-5 {
+  flex: 5; }
+
+.ls-col-6 {
+  flex: 6; }
+
+.ls-col-7 {
+  flex: 7; }
+
+.ls-col-8 {
+  flex: 8; }
+
+.ls-col-9 {
+  flex: 9; }
+
+.ls-col-10 {
+  flex: 10; }
+
+.ls-col-11 {
+  flex: 11; }
+
+.ls-col-12 {
+  flex: 12; }
 
 .ls-text-left {
   text-align: left; }
@@ -37,88 +77,14 @@ body, html {
   position: fixed; }
 
 .ls-align-center {
-  align-items: center;
-  justify-content: space-around; }
+  justify-content: center; }
+
+.ls-align-left {
+  margin-right: auto; }
+
+.ls-align-right {
+  margin-left: auto;
+  align-items: flex-end; }
 
 .ls-content-space-around {
   justify-content: space-around; }
-
-.ls-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  flex-flow: row wrap;
-  min-width: 200px; }
-
-[class*="ls-col-"] {
-  display: flex;
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-direction: column;
-  flex-flow: column wrap;
-  min-width: 200px; }
-
-.ls-col-1 {
-  width: 8.33333%;
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/1));*/ }
-
-.ls-col-2 {
-  width: 16.66667%;
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/2));*/ }
-
-.ls-col-3 {
-  width: 25%;
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/3));*/ }
-
-.ls-col-4 {
-  width: 33.33333%;
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/4));*/ }
-
-.ls-col-5 {
-  width: 41.66667%;
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/5));*/ }
-
-.ls-col-6 {
-  width: 50%;
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/6));*/ }
-
-.ls-col-7 {
-  width: 58.33333%;
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/7));*/ }
-
-.ls-col-8 {
-  width: 66.66667%;
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/8));*/ }
-
-.ls-col-9 {
-  width: 75%;
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/9));*/ }
-
-.ls-col-10 {
-  width: 83.33333%;
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/10));*/ }
-
-.ls-col-11 {
-  width: 91.66667%;
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/11));*/ }
-
-.ls-col-12 {
-  width: 100%;
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/12));*/ }
-
-.ls-gutter {
-  margin-left: 8.33333%;
-  margin-right: -8.33333%;
-  width: 83.33333%; }
-
-h1 {
-  font-size: 3rem;
-  margin: 0;
-  padding: 0; }
-
-p {
-  font-size: 1rem; }
-
-small {
-  font-size: 0.75rem; }

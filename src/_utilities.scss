@@ -1,0 +1,25 @@
+.ls-text-left {
+  text-align: left;
+}
+.ls-text-right {
+  text-align: right;
+}
+.ls-text-center {
+  text-align: center;
+}
+.ls-fixed {
+  position: fixed;
+}
+.ls-align-center {
+  justify-content: center;
+}
+.ls-align-left {
+  margin-right: auto;
+}
+.ls-align-right {
+  margin-left: auto;
+  align-items: flex-end;
+}
+.ls-content-space-around {
+  justify-content: space-around;
+}

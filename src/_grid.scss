@@ -1,6 +1,3 @@
-$grid-column-total: 12;
-$max-mobile-width: 960px;
-
 .ls-row {
   display: flex;
   flex-direction: row;
@@ -10,58 +7,46 @@ $max-mobile-width: 960px;
   min-width: 200px;
 }
 [class*="ls-col-"] {
-  display: flex;
   flex-grow: 1;
   flex-shrink: 0;
   flex-direction: column;
   flex-flow: column wrap;
   min-width: 200px;
 }
+
 .ls-col-1 {
-  width: percentage(100/($grid-column-total/1)/100);
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/1));*/
+  flex: 1;
 }
 .ls-col-2 {
-  width: percentage(100/($grid-column-total/2)/100);
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/2));*/
+  flex: 2;
 }
 .ls-col-3 {
-  width: percentage(100/($grid-column-total/3)/100);
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/3));*/
+  flex: 3;
 }
 .ls-col-4 {
-  width: percentage(100/($grid-column-total/4)/100);
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/4));*/
+  flex: 4;
 }
 .ls-col-5 {
-  width: percentage(100/($grid-column-total/5)/100);
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/5));*/
+  flex: 5;
 }
 .ls-col-6 {
-  width: percentage(100/($grid-column-total/6)/100);
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/6));*/
+  flex: 6;
 }
 .ls-col-7 {
-  width: percentage(100/($grid-column-total/7)/100);
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/7));*/
+  flex: 7;
 }
 .ls-col-8 {
-  width: percentage(100/($grid-column-total/8)/100);
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/8));*/
+  flex: 8;
 }
 .ls-col-9 {
-  width: percentage(100/($grid-column-total/9)/100);
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/9));*/
+  flex: 9;
 }
 .ls-col-10 {
-  width: percentage(100/($grid-column-total/10)/100);
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/10));*/
+  flex: 10;
 }
 .ls-col-11 {
-  width: percentage(100/($grid-column-total/11)/100);
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/11));*/
+  flex: 11;
 }
 .ls-col-12 {
-  width: percentage(100/($grid-column-total/12)/100);
-  /*flex-basis: floor($max-mobile-width/floor($grid-column-total/12));*/
+  flex: 12;
 }

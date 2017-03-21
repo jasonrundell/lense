@@ -1,20 +1,50 @@
+/* Lense: Theme "Soft" */
 /* TYPE */
 /* COLORS */
-/* COLUMNS */
 body {
   font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #1a1a1a; }
 
+body, html {
+  font-size: 14px; }
+
+h1 {
+  font-size: 3rem;
+  margin: 0; }
+
+h2 {
+  font-size: 2rem;
+  margin: 0; }
+
+h3 {
+  font-size: 1rem;
+  margin: 0; }
+
+h4 {
+  font-size: 0.9rem;
+  margin: 0; }
+
+h5 {
+  font-size: 0.8rem;
+  margin: 0; }
+
+h6 {
+  font-size: 0.7rem;
+  margin: 0; }
+
+p {
+  font-size: 1rem; }
+
+small {
+  font-size: 0.75rem; }
+
 [class*="col-"] {
-  border: 1px solid #fff;
-  background-color: rgba(22, 112, 177, 0.1); }
+  background-color: rgba(22, 112, 177, 0.1);
+  padding: 1rem; }
 
-.fa {
-  font: normal normal normal 14px FontAwesome; }
-
-.ls-divider {
-  border: 1px solid #1a1a1a; }
-
-.ls-row {
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto; }
+.ls-soft-list-links {
+  list-style-type: none;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
