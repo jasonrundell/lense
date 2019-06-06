@@ -1,11 +1,11 @@
 {
   "name": "lense",
   "version": "1.1.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Lense is a simple CSS framework experiment by Jason Rundell.",
+  "main": "src/pug/index.pug",
   "scripts": {
-    "start": "npm run clean && parcel src/pug/index.pug",
     "clean": "rimraf dist && shx mkdir dist",
+    "start": "npm run clean && parcel src/pug/index.pug",
     "build": "npm run clean && parcel build src/pug/index.pug"
   },
   "repository": {
@@ -30,6 +30,5 @@
     "rimraf": "^2.6.3",
     "sass": "^1.20.3",
     "shx": "^0.3.2"
-  },
-  "dependencies": {}
+  }
 }
