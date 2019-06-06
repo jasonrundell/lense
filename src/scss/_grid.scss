@@ -3,11 +3,17 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: center;
+  flex-flow: row wrap;
+  min-width: 200px;
 }
 [class*="ls-col-"] {
+  flex-grow: 1;
+  flex-shrink: 0;
   flex-direction: column;
+  flex-flow: column wrap;
+  min-width: 200px;
 }
+
 .ls-col-1 {
   flex: 1;
 }

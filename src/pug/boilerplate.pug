@@ -1,0 +1,85 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    title Lense: A CSS Framework - Boilerplate
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="../scss/lense.scss")
+    link(rel="stylesheet", href="../scss/theme/soft.scss")
+  body
+    include includes/main-nav.pug
+    header
+      h1 Lense: A CSS Framework
+    main
+      h2 Boilerplate
+      .ls-layout
+        .ls-row
+          .ls-col-3.ls-align-left
+            // img logo
+            h1 Lense
+          .ls-col-5.ls-align-left
+            ul.ls-soft-list-links
+              li Home
+              li
+                a(href='#') About
+          .ls-col-4.ls-align-right
+            form
+              .ls-form-group
+                label(for='search') Search
+                input#search.ls-field-input-text(type='text')
+                button Search
+        .ls-row
+          .ls-col-10.ls-text-left
+            h2 Boilerplate
+            p Welcome to Lense boilerplate.
+            .ls-row
+              // media blocks
+              .ls-col-4
+                // media block 1
+                .ls-row
+                  .ls-col-6
+                    .ls-row
+                      .ls-col-12.ls-text-center
+                        img(src='http://placehold.it/140x100')
+                      .ls-col-12.ls-text-center
+                        a(href='#') 96 Comments
+                  .ls-col-6
+                    h3 50/50
+                    p
+                      | Pid magna platea porttitor enim? Odio lorem pid? Etiam adipiscing augue a? Eros natoque nec vut! Egestas in eros ac porttitor natoque in, amet, urna urna aenean? Dictumst penatibus elit porta elit placerat ultricies scelerisque tempor! Enim turpis porta arcu, odio sit? Eu adipiscing integer ultrices ac scelerisque hac integer ultricies, cursus odio ultricies. Purus montes, augue vut turpis ac.
+                    .ls-row.ls-content-space-around
+                      button One
+                      button Two
+                      button Three
+                      button Four
+                // // media block 1
+                // media block 2
+                .ls-row
+                  .ls-col-4
+                    .ls-row
+                      .ls-col-12.ls-text-center
+                        img(src='http://placehold.it/140x100')
+                      .ls-col-12.ls-text-center
+                        a(href='#') 96 Comments
+                  .ls-col-8
+                    h3 30/70
+                    p
+                      | Penatibus, purus urna! Massa auctor, egestas pulvinar turpis montes et risus natoque magna adipiscing, aenean. Porta penatibus pid augue amet tristique placerat habitasse, cras lectus nunc vut in integer, integer ut enim cum est proin ultricies, porta porttitor? Placerat natoque pellentesque nunc dignissim?
+                    .ls-row.ls-content-space-around
+                      button Read
+                // // media block 2
+                // // media blocks
+                .ls-col-4
+                  h3 Heading
+                  p
+                    | Nulla quis lorem ut libero malesuada feugiat. Donec sollicitudin molestie malesuada. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta.
+                  button Read
+                .ls-col-4
+                  p Right column content
+        .ls-row
+          .ls-col-12.ls-text-center
+            ul.ls-soft-list-links
+              li
+                a(href='https://www.w3.org/TR/css-flexbox-1/') W3C Flexible Box Reference
+          .ls-col-12.ls-text-center
+            p Copyright © Your Company Here 2019.
